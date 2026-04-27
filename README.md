@@ -108,4 +108,4 @@ The hardware prototype of the Automatic Exhaust System:
 ## Author
 KARTHIK PK
 Electronics and Instrumentation Engineering
-Federl Institute of Science and Technology(FISAT)
+[Federal Institute of Science and Technology(FISAT)]
