@@ -49,25 +49,13 @@ The complete circuit has been designed and simulated in **Proteus 8 Professional
 
 > ⚠️ **Simulation Note:** In the Proteus simulation, a **Potentiometer (POT-HG)** is used **instead of the MQ-2/MQ-6 gas sensor**. The potentiometer simulates the varying analog voltage output of the gas sensor — rotating it increases or decreases the simulated gas concentration level. In the actual physical circuit, the real MQ-series gas sensor is connected in its place.
 
-📁 **Simulation file:** `simulation/AUTOMATIC_EXAUSTSYSTEM.pdsprj`
+📁 **Simulation file:** `simulation/AUTOMATIC_EXAUSTSYSTEM`
 
 To run the simulation:
 1. Open the `.pdsprj` file in **Proteus 8 or later**
 2. Make sure the HEX file is loaded into the AT89C51 component
 3. Click **Run** and rotate the potentiometer to simulate different gas levels
 4. Watch the LCD display update with gas level readings and SAFE / DANGER status
-
-### Simulation Preview
-
-![Proteus Simulation](images/proteus_simulation.png)
-
----
-
-## Project Photo
-
-The hardware prototype of the Automatic Exhaust System:
-
-![Project Photo](images/project_photo.jpg)
 
 ---
 
@@ -77,14 +65,9 @@ The hardware prototype of the Automatic Exhaust System:
 .
 |-- README.md
 |-- simulation/
-|   └── AUTOMATIC_EXAUSTSYSTEM.pdsprj     # Proteus 8 simulation file
-|-- images/
-|   |-- proteus_simulation.png            # Screenshot of Proteus circuit
-|   └── project_photo.jpg                 # Photo of hardware prototype
-|-- src/
-|   └── exhaust_system.asm                # 8051 Assembly source code
+|   └── AUTOMATIC_EXAUSTSYSTEM.pdsprj     
 └── hex/
-    └── exhaust_system.hex                # Compiled HEX file for microcontroller
+    └── exhaust_system.hex                
 ```
 
 ---
